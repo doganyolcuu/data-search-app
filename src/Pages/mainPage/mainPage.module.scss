@@ -1,0 +1,33 @@
+$font-type: 'Roboto';
+.addNewRecordDiv{
+    display: flex;
+    width: 95%;
+    justify-content: right;
+    margin-top: 70px;
+}
+.logoDiv {
+    margin-top: 74px;
+    display: flex;
+    flex-direction: column;
+}
+.logoText {
+    margin-left: 14%;
+    font-family: $font-type;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #484848;
+}
+.searchText {
+    font-family: $font-type;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    margin-top: 10px;
+    margin-left: -23%;
+}
+.mainImg{
+    border-radius: 10px;
+}

@@ -1,0 +1,86 @@
+.upside{
+    margin: auto;
+    width: 80%;
+}
+
+.logoPlace{
+    border-radius: 10px;
+    width: 200px;
+    height: 85px;
+    margin-right: 35px;
+}
+
+.resultPageSearch{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.addNewRecordDiv{
+    margin-left: 150px;
+}
+
+.hr{
+    border-bottom: 1px solid #7E7E7E;
+    width: 700px;
+}
+.resultList{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    width: 830px;
+    margin-left: 200px;
+    // border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+    border-radius: 10px 10px 10px 10px;
+
+    &:hover{
+        background: rgba(79, 117, 194, 0.21);
+    cursor: pointer;
+}
+}
+
+
+.locationIcon{
+    padding: 15px;
+}
+.largeGeneralInfo{
+    flex: auto;
+    padding: 15px;
+}
+
+.infoDiv{
+    display: flex;
+    justify-content: space-between;
+    .largePeopleInfo{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #72777A;
+    }
+
+    .largePeopleCompany{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #090A0A;
+    }
+
+    .largePeopleHomeTown{
+        font-weight: 400;
+        font-size: 14px;
+        font-family: 'Roboto';
+        font-style: normal;
+        color: #72777A;
+    }
+
+    .largePeopleDate{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #484848;
+    }
+}

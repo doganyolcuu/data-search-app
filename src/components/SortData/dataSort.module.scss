@@ -1,0 +1,68 @@
+// .sortBorder{
+//     border: 1px solid;
+//     border-radius: 4px;
+//     padding: 3px;
+//     width: 125px;
+//     right: 27%;
+//     position: absolute;
+//     margin-top: 20px;
+// }
+
+// .clickedDiv{
+    
+// }
+
+.orderButton{
+    margin-top: 50px;
+    position: relative;
+    margin-left: 72%;
+    .buttonOrder{
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      padding: 3px 15px;
+      font-family: 'Roboto';
+      font-weight: 500;
+      font-size: 17px;
+      border-radius: 8px;
+      border: 1px solid rgb(99, 99, 99);
+      gap: 5px;
+      transition: all .2s ease-out;
+      &:active{
+        scale: 0.97;
+      }
+    }
+    .sortingWays{
+      scale: 0;
+      position: absolute;
+      top: 40px;
+      left: -5px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      border: 2px solid gray;
+      border-radius: 8px;
+      padding: 10px;
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      transition: all .15s ease-in-out;
+      transform-origin: top center;
+      .sortButtons{
+        cursor: pointer;
+        border: none;
+        background-color: transparent;
+        font-family: 'Roboto';
+        font-weight: 500;
+        padding: 6px;
+        transition: all .1s ease-in-out;
+        &:hover{
+          background: #B3B3B3;
+          border-radius: 8px
+        }
+      }
+      .sortedOne{
+        background-color: gray;
+        border-radius: 6px;
+        color: white;
+      }
+    }
+  }

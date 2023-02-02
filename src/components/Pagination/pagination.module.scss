@@ -1,0 +1,24 @@
+.paginate{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.activePage{
+    background-color: darkblue;
+    color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.skipButton{
+    border: 1px solid #484848;
+    background: #FFFFFF;
+    font-family: 'Roboto';
+    color: #484848;
+    font-size: medium;
+    padding: 4px 25px 4px 25px;
+    border-radius: 4px;
+    font-weight: bold;
+}
