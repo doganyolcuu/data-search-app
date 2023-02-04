@@ -7,10 +7,6 @@ export const DataContext = createContext();
 function PeopleContext({children}) {
     const {data} = mockData;
     
-    const initialState = {
-        data,
-    }
-
     const [state, dispatch] = useReducer(PeopleReducer);
 
     return (
