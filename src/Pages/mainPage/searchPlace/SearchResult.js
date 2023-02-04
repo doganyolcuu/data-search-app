@@ -14,7 +14,7 @@ function SearchResult() {
     if ( searchValue && searchValue.length > 0) {
       getActionData(dispatch, {id: searchValue})
     }
-  },[searchValue])
+  },[dispatch, searchValue])
   
   return (
   <>
